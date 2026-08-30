@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Career &amp; Contact — Dr. Tosin Ilevbare</title>
+<meta name="description" content="Career journey of Dr. Oluwatosin Sanusi Ilevbare from Obafemi Awolowo University and NACETEM to academic leadership at the University of Ilesa — plus email, WhatsApp and professional profiles." />
+<meta property="og:title" content="Career &amp; Contact — Dr. Tosin Ilevbare" />
+<meta property="og:description" content="Career milestones, academic leadership and contact details for Dr. Oluwatosin Sanusi Ilevbare." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="progress"></div>
+<div id="curtain" aria-hidden="true"><span>OSI</span></div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Tosin Ilevbare</a>
+    <nav class="desktop">
+      <a class="nav-link" data-page="index.html" href="index.html">Home &amp; About</a>
+      <a class="nav-link" data-page="research.html" href="research.html">Research</a>
+      <a class="nav-link" data-page="career.html" href="career.html">Career &amp; Contact</a>
+    </nav>
+    <button class="icon-btn" id="mobile-open" type="button" aria-label="Open menu"><i data-lucide="menu"></i></button>
+  </div>
+</header>
+
+<div id="mobile-menu">
+  <button class="icon-btn" id="mobile-close" type="button" aria-label="Close menu" style="display:inline-flex"><i data-lucide="x"></i></button>
+  <a href="index.html">Home &amp; About</a>
+  <a href="research.html">Research</a>
+  <a href="career.html">Career &amp; Contact</a>
+</div>
+
+<main>
+  <section class="hero light" style="min-height:auto;padding:176px 0 80px">
+    <div class="wrap" style="position:relative">
+      <p class="eyebrow reveal"><i data-lucide="briefcase"></i> Career journey</p>
+      <h1 class="display serif reveal balance" style="transition-delay:100ms;font-size:clamp(2.5rem,6vw,5rem)">A career devoted to human potential</h1>
+      <p class="lede reveal" style="transition-delay:200ms">From psychology training at Obafemi Awolowo University to research leadership at NACETEM and NISER, and now academic leadership at the University of Ilesa.</p>
+      <div class="meta-row reveal" style="transition-delay:300ms"><span><i data-lucide="map-pin"></i> University of Ilesa, Osun State, Nigeria</span></div>
+    </div>
+  </section>
+
+  <section class="pad" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-intro reveal">
+        <div class="rule"><i></i><p>Milestones</p></div>
+        <h2 class="section-title serif balance">Five stages of practice</h2>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <section class="pad dark">
+    <div class="wrap">
+      <div class="section-intro reveal">
+        <div class="rule"><i></i><p>Contact</p></div>
+        <h2 class="section-title serif balance">Let's work together</h2>
+        <p class="section-copy">Open to research collaboration, speaking invitations, consulting and mentorship.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="reveal">
+          <a class="contact-panel" href="mailto:psytosin@yahoo.com">
+            <i data-lucide="mail"></i>
+            <p class="label">Email</p>
+            <p class="value">psytosin@yahoo.com</p>
+          </a>
+        </div>
+        <div class="reveal" style="transition-delay:100ms">
+          <a class="contact-panel" href="https://wa.me/2348106098163" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="message-circle"></i>
+            <p class="label">WhatsApp</p>
+            <p class="value">+234 810 609 8163</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal socials" style="transition-delay:160ms">
+        <a class="social-link" href="https://www.linkedin.com/in/oluwatosin-sanusi-ilevbare-phd-0399266b" target="_blank" rel="noopener noreferrer"><i data-lucide="linkedin"></i> LinkedIn</a>
+        <a class="social-link" href="https://orcid.org/0000-0001-6263-6758" target="_blank" rel="noopener noreferrer"><i data-lucide="badge-check"></i> ORCID</a>
+        <a class="social-link" href="https://scholar.google.com/citations?hl=en&amp;user=z0G70csAAAAJ" target="_blank" rel="noopener noreferrer"><i data-lucide="graduation-cap"></i> Google Scholar</a>
+        <a class="social-link" href="https://loop.frontiersin.org/people/2533698/publications" target="_blank" rel="noopener noreferrer"><i data-lucide="globe"></i> Frontiers Loop</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>© <span id="year"></span> Dr. Oluwatosin Sanusi Ilevbare</p>
+    <p>Senior Lecturer &amp; Director · University of Ilesa, Osun State, Nigeria</p>
+  </div>
+</footer>
+
+<button id="to-top" type="button" aria-label="Back to top"><i data-lucide="chevron-up"></i></button>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
